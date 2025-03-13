@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/settings.css">
+</head>
+<body>
+    
+    <div id="pchange">
+        <h1>Change password</h1>
+        <input type="text" name="" id="oldpass" placeholder="Old password"><br>
+        <input type="text" name="" id="newpass" placeholder="new password"><br>
+        <p id="presponse"></p>
+        <button id="changep">Change password</button>
+    </div>
+
+<div id="uchange">
+    <h1>Change username</h1>
+    <input type="text" name="" id="newuname" placeholder="New username"><br>
+    <p id="uresponse"></p>
+    <button id="changeuname" onclick="changeUser()">Change username</button>
+</div>
+
+<div id="dchange">
+    <h1>Change description</h1>
+    <input type="text" name="" id="newdescription" placeholder="new description">
+    <p id="dresponse"></p>
+    <button id="changedesc">Change description</button>
+</div>
+
+<div id="pimage">
+    <h1>Change picture</h1>
+    <input type="text" id="newimg" placeholder="Image link">
+    <p id="ipresponse"></p>
+    <button id="changepic">Change Picture</button>
+</div>
+
+    <script src="scripts/settings.js"></script>
+</body>
+</html>

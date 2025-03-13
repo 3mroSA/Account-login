@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --prim: #FFCC00;  /* Bumblebee yellow */
+    --secondary: #353535;  /* Dark gray */
+}
+
+body {
+    font-family: "Outfit", serif;
+    background-color: var(--secondary);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Outfit", serif;
+
+    margin-top: 50px;
+    font-size: 2rem;
+    color: var(--prim);
+}
+
+form {
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    background-color: var(--prim);
+    color: var(--secondary);
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e6b800; /* Slightly darker yellow for hover effect */
+}
+
+#responseMessage {
+    margin-top: 20px;
+    color: white;
+}
+
+#specialmsg {
+    margin-top: 20px;
+    color: #FFCC00;
+}
